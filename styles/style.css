@@ -20,27 +20,33 @@ a{
 }
 
 .branding{
-    vertical-align: center; 
     display: inline-block;
 }
 
 .logo{
-    display: inline;
+    display: inline-block;
 }
 
-.bar{
-    border: 2px solid; 
-    height: 75%;
-    width: 50%;
+.fullh{
+    display: inline-block;
 }
 
 .brand-name{
     font-size: 4em; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute; 
-    top: 40px;
+    top: 60px;
     left: 150px;  
 }   
+
+.bar{
+    display: inline-block;
+    height: 3px;
+    border: 2px solid;
+    width: 66%;
+    box-shadow: 0px -4px 7px -4px;
+    background: repeating-linear-gradient(-45deg, black 4%, white 5%);
+}
 
 .nav-links{
     float: right; 
