@@ -19,4 +19,34 @@ a{
 
 }
 
-.
+.branding{
+    vertical-align: center; 
+    display: inline;
+}
+
+.logo{
+    display: inherit;
+}
+
+.brand-name{
+    font-size: 4em; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative; 
+    top: -45px; 
+    display: inherit;
+}   
+
+.nav-links{
+    float: right; 
+    margin: 75px 25px 0px 10px;
+}
+
+.home{
+    display: inline;
+    padding: 20px 20px 20px 20px; 
+}
+
+.products{
+    display: inline;
+    padding: 20px 20px 20px 20px; 
+}
