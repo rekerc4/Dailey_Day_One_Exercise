@@ -1,5 +1,5 @@
 
-body{
+*{
     line-height: 1; 
     margin: 0px; 
     padding: 0px; 
@@ -16,24 +16,30 @@ a{
 }
 
 .navi{
-
+    margin: 10px 0px 0px 0px; 
 }
 
 .branding{
     vertical-align: center; 
-    display: inline;
+    display: inline-block;
 }
 
 .logo{
-    display: inherit;
+    display: inline;
+}
+
+.bar{
+    border: 2px solid; 
+    height: 75%;
+    width: 50%;
 }
 
 .brand-name{
     font-size: 4em; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative; 
-    top: -45px; 
-    display: inherit;
+    position: absolute; 
+    top: 40px;
+    left: 150px;  
 }   
 
 .nav-links{
