@@ -6,17 +6,41 @@
     border: 0px; 
 }
 
-a{
-    text-decoration: none; 
+html{
+    height: 100%;
 }
 
-.img{
+body{
+    height: 100%;
+}
+
+a{
+    text-decoration: none; 
+    color: #D3D3D3; 
+    text-shadow: -1px -1px 0 #fff;
+    font-size: 1.5em; 
+}
+
+a:hover{
+    color: darkgray;
+    text-shadow: 0px -2px 0 #fff;
+}
+
+img{
     max-width: 100%;
     max-height: 100%;
 }
 
+.italics{
+    font-size: .75em; 
+    font-style: italic; 
+}
+
+
 .navi{
     margin: 10px 0px 0px 0px; 
+    width: 95%;
+    margin: auto auto 10px auto; 
 }
 
 .branding{
@@ -39,18 +63,28 @@ a{
     left: 150px;  
 }   
 
+.rel{
+    position: relative;
+    margin: 5px 0px 5px 0px; 
+}
+
 .bar{
-    display: inline-block;
     height: 3px;
     border: 2px solid;
-    width: 66%;
+    width: 85%;
     box-shadow: 0px -4px 7px -4px;
     background: repeating-linear-gradient(-45deg, black 4%, white 5%);
+    position: absolute; 
+    top: 130px; 
+    right: calc(14% - 160px);
+    box-shadow: rgb(192,192,192) 2px -3px 20px 5px; 
 }
 
 .nav-links{
     float: right; 
     margin: 75px 25px 0px 10px;
+    background: linear-gradient(5deg, white, black);
+    padding: 20px 20px 20px 20px;
 }
 
 .home{
@@ -61,4 +95,89 @@ a{
 .products{
     display: inline;
     padding: 20px 20px 20px 20px; 
+}
+
+.contents{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 25px;  
+}
+
+.first-column{
+    width: 30%;
+    display: block;
+    margin: 0px 15px 0px auto; 
+    float: left; 
+}
+
+.second-column{
+    width: 30%;
+    display: block;
+    margin: 0px 15px 0px auto; 
+    float: left; 
+}
+
+.bquote{
+    border: #D3D3D3 solid; 
+    box-shadow: #C0C0C0 2px 2px 2px 2px; 
+}
+
+.bquote1{
+    margin: 0px 0px 10px 0px; 
+}
+
+.bquote2{
+    margin: 10px 0px 10px 2px; 
+}
+
+.bquote3{
+    margin: 0px 0px 10px 5px; 
+}
+
+.bquote4{
+    margin: 10px 8px 0px 0px;
+}
+
+.third-column{
+    width: 30%; 
+    display: block;
+    margin: 0px 15px 0px auto; 
+    float: left; 
+    text-align: center;
+}
+
+.form{
+    margin: 10px 0px 10px 0px; 
+}
+
+.form-in{
+    display: block; 
+    width: 90%; 
+    margin: 5px auto 5px auto; 
+    border: silver 1px solid;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+
+.form-sub{
+    border: silver 1px solid;
+    border-radius: 3px;
+    padding: 10px; 
+}
+
+.tri{
+    border: solid silver;
+    border-width: 0px 4px 4px 0px; 
+    padding: 4px;
+    transform: rotate(45deg);
+    display: inline-block;
+}
+
+
+@media and screen(max-width: 676px){
+    .nav-links{
+        margin-top: 30px;
+    }
 }
